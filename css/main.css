@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	font-family: 'Chewy', cursive;
+	background-color: #000;
+}
+
+.wrapper {
+	width: 71%;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #fe926b;
+	color: #fffbe7;
+	height: 15vmin;
+}
+
+nav img {
+	margin-top: 1%;
+	padding-left: 5%;
+}
+
+nav p {
+	display: inline-block;
+	font-size: 1.5em;
+	margin-top: 0; 
+	vertical-align: top;
+	margin-top: 41px;
+}
+
+nav span {
+	font-size: 12px;
+	vertical-align: top;
+	font-family: sans-serif;
+}
+
+nav ul {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-top: 41px;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 38px;
+}
+
+nav a {
+	color: #fffbe7;
+	font-size: 1.5em;
+	text-decoration: none;
+}
+
+.main-one {
+	display: inline-block;
+	height: 70vmin;
+	background-color: #f8f2d2;
+	width: 48%;
+}
+
+.main-one img {
+	width: 457px;
+	height: 291px;
+	margin: 110px 0 0 70px;
+}
+
+.main-two {
+	vertical-align: top;
+	display: inline-block;
+	background-color: #f8f2d2;
+	width: 52%;
+	height: 70vmin;   
+ }
+
+ .search {
+ 	text-align: right;
+ }
+
+ .search input {
+ 	background-color: #f0f0f0;
+ 	border: none;
+ 	font-size: 33px;
+ 	width: 275px;
+ 	margin: 20px 20px 0 0;
+ 	padding: 7px 0 7px 15px;
+ 	box-shadow: 5px 8px #bcbcbc;
+ }
+
+ .search i {
+ 	font-size: 35px;
+ 	color: #c0c0c0;
+ 	position: relative;
+ 	left: 285px;
+ 	top: 4px;
+ }
+
+ .search input::placeholder {
+ 	color: #c0c0c0;
+ }
+
+.text {
+	padding-right: 120px;
+}
+ .text p {
+ 	color: #82AF6E;
+ 	font-size: 40px;
+ 	margin: 20px 0 0 25px;
+ }
+.text span:first-child {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.text span:nth-child(2) {
+	font-size: 15px;
+	vertical-align: 20px;
+	font-family: sans-serif;
+}
+
+.text span:nth-child(3),
+.text span:nth-child(4) {
+	color: #fa976b;
+}
+
+.buttons {
+	margin-top: 20px;
+}
+
+.buttons button {
+	margin: 0 20px;
+	border: none;
+}
+
+.buttons button:first-child {
+	background-color: #89b993;
+	color: #fff;
+	width: 39%;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+
+.buttons button:nth-child(2) {
+	background-color: #fe926b;
+	font-size: 20px;
+	color: #fff;
+	padding: 10px 0;
+	width: 39%;
+}
+
+footer {
+	height: 15vmin;
+	background-color: #89b993;
+}
+
+footer ul {
+	margin: 0;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+	margin: 25px 20px 0;
+}
+
+footer a {
+	color: #f8f2d2;
+	font-size: 25px;
+}
